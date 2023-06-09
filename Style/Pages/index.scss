@@ -1,0 +1,29 @@
+@import "../Basic/normalizer";
+@import "../Theme/default";
+
+body{
+  background-color: var(--mainBackgroundColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginContainer{
+  padding: 2.175rem;
+  background-color: var(--mainformColor);
+  min-height: 12rem;
+  width: 25rem;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+}
+input + input{
+  margin-top: 20px;
+}
+
+.title{
+  text-align: center;
+  margin-top: 0;
+}
+
+

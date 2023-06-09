@@ -1,0 +1,18 @@
+{
+  "system": {
+    "showError":true,
+    "fastMode": true
+  },
+  "database": {
+    "mysql": {
+      "host": "localhost",
+      "database": "Semishop",
+      "user": "schaldemose2",
+      "pass": "7878bb5cac"
+    },
+    "redis": {
+      "host": "127.0.0.1",
+      "port": 6379
+    }
+  }
+}
